@@ -1,0 +1,19 @@
+# main function to run the program
+def main():
+    initialize_adc_pins()
+    read_potentiometers()
+    display_angles()
+
+# sets up the ADC pins for potentiometers
+def initialize_adc_pins():
+    '''Assigns the ADC pins for X and Y potentiometers'''
+
+# reads values from the potentiometers and converts them to angles
+def read_potentiometers():
+    '''Reads the raw values from X and Y potentiometers and maps them to angles'''
+
+# displays the converted angles
+def display_angles():
+    '''Prints the X and Y angles for monitoring'''
+    
+main()  # Runs the main program
